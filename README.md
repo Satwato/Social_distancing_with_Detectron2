@@ -24,7 +24,7 @@ First, it is highly suggestible to download the [model](https://dl.fbaipublicfil
 
  
 ```
-python runner.py --config-file ../configs/COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml \
+python runner.py --config-file <path_detectron2_repo>/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml \
 --input cctv-footage.jpg  --opts MODEL.DEVICE cpu  MODEL.WEIGHTS model_final_f10217.pkl 
 ```
 
